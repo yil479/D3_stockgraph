@@ -228,7 +228,7 @@
       focus.select('.y.axis').call(yAxis);
     }
 
-    var dateRange = ['1w', '1m', '3m', '6m', '1y', '5y']
+    var dateRange = ['1w', '1m', '6m', '1y', '5y']
     for (var i = 0, l = dateRange.length; i < l; i ++) {
       var v = dateRange[i];
       rangeSelection
